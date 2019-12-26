@@ -1,0 +1,109 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+header {
+  background: url("https://images.unsplash.com/photo-1464122632645-bf5f12bbe202?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80") repeat-x bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: red;
+  background-color: white;
+}
+
+.titre {
+  margin: auto;
+	text-align: center;
+  font-size: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 0.8em;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: red;
+    background-color: yellow;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive, sans-serif;
+  color: orange;
+  font-size: 2em;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive, sans-serif;
+  color: red;
+  font-size: 1.5em;
+}
+
+.perform {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.column-text {
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.invit {
+  text-align: center;
+  font-size: 1.7em;
+  color: white;
+  background-color: red;
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+td, th {
+  width: 25%;
+}
+
+fieldset {
+  width: 50%;
+}
+
+label {
+  display: block;
+  width: 120px;
+  float: left;
+}
