@@ -1,2 +1,2 @@
 # Challenge-Wild-Code-School
-réalisation page du Wild Circus (challenge d'entrée)
+réalisation de la page du Wild Circus (challenge d'entrée)
