@@ -1,0 +1,138 @@
+<!-- Afin de valider ton code HTML, fais un copier-coller de ce dernier et rends-toi sur https://validator.w3.org/#validate_by_input. 
+Click sur l'onglet "Validate by Direct Input" et colle ton code HTML, click ensuite sur le bouton "Check", et tu verras ensuite (si tu en as) les erreurs HTML s'afficher plus bas.
+Tu peux jeter un oeil par ici pour en savoir un peu plus: https://www.243tech.com/valider-vos-codes-html-et-css-sur-validator-w3-org/ -->
+
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+    <meta name="description" content="Welcome on the Wild Circus page">
+    <link rel="stylesheet" type="text/css" href="StyleWildCircus.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <h1 class="titre">Wild Circus</h1>
+      <nav>
+        <ul>
+            <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+            <li><a href="#performances">Performances</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#prices">Prices</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2 id="performances">Performances</h2>
+      <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+      <ul>
+        <!-- performance 1 -->
+        <li>
+            <h3 class="perform">Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+         </li>
+        <!-- performance 2 -->
+         <li>
+            <h3 class="perform">Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+         </li>
+         <!-- performance 3 -->
+         <li>
+            <h3 class="perform">Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="about">About Us</h2>
+      <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+      <h3>Welcome to the Wild Circus !</h3>
+      
+      <h4>Who are we ?</h4>
+      <p>Born in 2013 in La loupe (Center of France), we are now a huge family. There are at least 1500 artists with a large palet of qualities !</p>
+      
+      <h4>Where are our representations?</h4>
+      <p>During all year, you can discover us in 24 cities in Europe. And the best place for discovered us is Lyon with the funniest clowns!</p>
+      
+      <h3 class="invit">So come and join us for spending good days.</h3>
+      
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="prices">Prices</h2>
+      <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                         |                                |
+        week-end et mercredi    |         |                         |                                |
+      -->
+      <table>
+        <thead>
+          <tr>
+            <th>Adults</th>
+            <th>Children (under 12yo)</th>
+            <th>Groups (under 10 persons)</th>
+            <th>Schools</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>10 €</td>
+            <td>5 €</td>
+            <td>8 € per person</td>
+            <td>3 € per child</td> 
+          </tr>
+        </tbody>
+        
+      </table>  
+      
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="contact">Contact Us</h2>
+      <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message. Pense bien à ajouter les labels pour les différents champs
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+      -->
+      <form action="contact">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <div>
+            <label for="nameinput"> Your name</label>
+            <input type="text" name="name" id="nameinput" placeholder="Name First Name" required>
+          </div>
+          <div>
+            <label for="emailinput"> Your mail</label>
+            <input type="text" name="email" id="emailinput" placeholder="contact@wild.fr" required>
+          </div>
+          <div>
+            <label for="message"> Your message</label>
+            <textarea name="message" id="message" cols="35" rows="8" placeholder="Your message"></textarea>
+          </div>
+          
+          <button>Submit</button>
+          
+        </fieldset>
+      </form>
+    </section>
+
+    <footer>
+      <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr) ainsi que le lien vers ton profil public France.ioi (avec les 16 premiers exercies de réalisés).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+      <p>Wild Circus by Marie Gandrille - France-IOI: <a href="http://www.france-ioi.org/user/perso.php?sLogin=mgandrille">mgandrille</a> - SoloLearn: [lien vers ton profil SoloLearn] - <a href="https://www.wildcodeschool.fr/">Wild Code School</a> - 27/12/2019</p>
+    </footer>
+</body>
+</html>
